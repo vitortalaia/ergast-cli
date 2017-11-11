@@ -1,0 +1,18 @@
+name: ergast-cli
+version: 0.1.0
+
+authors:
+  - Vitor Talaia <vitor.talaia.oliveira@gmail.com>
+
+targets:
+  ergast-cli:
+    main: src/ergast.cr
+
+dependencies:
+  admiral:
+    github: jwaldrip/admiral.cr
+    version: ~> 1.2.1
+
+crystal: 0.23.1
+
+license: MIT
