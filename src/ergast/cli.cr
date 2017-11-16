@@ -11,6 +11,7 @@ module Ergast
     define_help description: "A command line application to interact with Ergast Motorsport API"
 
     register_sub_command seasons, Commands::Seasons
+    register_sub_command standings, Commands::Standings
 
     def run
       puts help
